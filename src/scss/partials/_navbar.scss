@@ -1,0 +1,80 @@
+#header{
+    @include grid-container(auto auto, 1fr);
+    background-color: $blackBlue;
+    padding: $space-32 $space-16;
+    #header__figure{
+        @include flex(row, nowrap, center, end, 0);
+        .figure__img{
+            width: 4rem;
+        }
+        .figure__brand{
+            line-height: 1.1;
+            font-weight: bold;
+            font-style: italic;
+            font-size: $font-24;
+            color: $skyBlue;
+        }
+    }
+    #header__menu{
+        @include flex(row, nowrap, center, end, 0);
+        background-color: transparent;
+        border: none;
+    }
+    #header__navbar{
+        background-color: $navyBlue-op80;
+        position: absolute;
+        width: 100vw;
+        height: calc(100vh - 107px);
+        top: 107px;
+        left: 0;
+        .navbar{
+            @include flex(column, nowrap, space-between, center, $space-32);
+            padding: 20%;
+            list-style: none;
+            .navbar__item{
+                text-align: center;
+                .item__btn{
+                    background-color: rgba(23, 23, 23, 0);
+                    border: none;
+                    color: $white;
+                    font-size: $font-18;
+                    transition: all .3s;
+                }
+                .item__btn:hover{
+                    color: $skyBlue;
+                }
+                #catPanel{
+                    @include flex(column, nowrap, space-between, center, $space-16);
+                    position: absolute;
+                    padding: $space-16;
+                    list-style: none;
+                    background-color: $white-op80;
+                    border-radius: 0px 0px 6px 6px;
+                    li a{
+                        font-size: $font-14;
+                        font-style: italic;
+                        color: $navyBlue;
+                        font-weight: 500;
+                        transition: all .3s;
+                    }
+                    li a:hover{
+                        color: $skyBlue;
+                    }
+                }
+            }
+            #userIcon{
+                img{
+                    width: $space-32;
+                }
+            }
+            #cartIcon{
+                img{
+                    width: $space-32;
+                }
+            }
+        }
+
+    }
+}
+
+

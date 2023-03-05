@@ -1,0 +1,112 @@
+{
+  "products": [
+{ 
+  "id": "p01",
+  "img": "https://i.pinimg.com/originals/dd/b9/1d/ddb91dfe77f9771991d44008e1e4cc00.png",
+  "title": "Camisa de algodón con cuello de botones para hombre",
+  "description": "Esta camisa de manga larga para hombre está confeccionada en suave algodón y tiene un cuello de botones clásico. Disponible en varios colores, es ideal para ocasiones informales o de negocios. El corte recto y cómodo se adapta a todas las figuras y ofrece una gran comodidad de uso. ¡Hazte con ella para renovar tu armario!",
+  "price": 49.99,
+  "stock": 50,
+  "category": "men"
+},
+{
+  "id": "p02",
+  "img": "https://www.pngarts.com/files/1/Women-Leather-Jacket-Free-PNG-Image.png",
+  "title": "Chaqueta de cuero para mujer",
+  "description": "Esta chaqueta de cuero de alta calidad para mujer es una prenda imprescindible para cualquier armario. Confeccionada en cuero suave y resistente, es ideal para mantenerse abrigada en los días más fríos. El diseño moderno y elegante se adapta a cualquier ocasión y puede combinarse fácilmente con otros elementos de vestuario. ¡Hazte con ella para sentirte a la moda y a la vez cómoda!",
+  "price": 149.99,
+  "stock": 20,
+  "category": "women"
+},
+{
+  "id": "p03",
+  "img": "https://i.pinimg.com/originals/f8/49/6c/f8496cc217a77f5acff3dbe6660fc62c.png",
+  "title": "Vestido de verano para niña",
+  "description": "Este vestido de verano para niña es una prenda cómoda y fresca para los días calurosos. Confeccionado en algodón suave y transpirable, está disponible en varios colores y diseños. El corte holgado y elástico se adapta a cualquier figura y permite una gran libertad de movimiento. ¡Hazte con uno para tu pequeña princesa y disfrutad juntas del verano!",
+  "price": 29.99,
+  "stock": 100,
+  "category": "children"
+},
+{
+  "id": "p04",
+  "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/220/451/products/nike-jordan-xxxiii-2022-05-11t192010-3241-8455019e1b280e66d316523088667149-1024-1024.png",
+  "title": "Pantalones deportivos para hombre",
+  "description": "Estos pantalones deportivos para hombre son ideales para actividades al aire libre o para hacer ejercicio en el gimnasio. Confeccionados en un tejido suave y resistente, ofrecen una gran comodidad de uso y permiten una gran libertad de movimiento. Disponibles en varios colores y tallas, se adaptan a todas las figuras y estilos. ¡Hazte con un par para mejorar tu rendimiento deportivo!",
+  "price": 39.99,
+  "stock": 30,
+  "category": "men"
+},
+{
+  "id": "p05",
+  "img": "https://www.elpalaciodehierro.com/on/demandware.static/-/Library-Sites-palacio-content-global/default/dw6fcdae69/images/PLP/PLP-segmentos/Mujer/Mujer-Ropa/Vestidos/VESTIDOS-vestidos-fiesta.png",
+  "title": "Vestido de noche para mujer",
+  "description": "Este vestido de noche para mujer es una prenda elegante y sofisticada para cualquier ocasión especial. Confeccionado en un tejido suave y brillante, cuenta con detalles de encaje y una caída fluida que realza la figura. Disponible en varios colores y tallas, se adapta a cualquier estilo y gusto. ¡Hazte con él para lucir espectacular en tu próxima celebración nocturna!",
+  "price": 99.99,
+  "stock": 15,
+  "category": "women"
+  },
+  {
+  "id": "p06",
+  "img": "https://static.nike.com/a/images/t_default/8807026b-64c4-4d65-8deb-986658af1eeb/conjunto-de-camiseta-y-pantalon-corto-9g5kTB.png",
+  "title": "Conjunto de camiseta y pantalón para niño",
+  "description": "Este conjunto de camiseta y pantalón para niño es perfecto para las aventuras diarias. La camiseta de manga corta está confeccionada en algodón suave y transpirable, mientras que el pantalón está hecho de un tejido resistente y elástico que permite una gran libertad de movimiento. Disponible en varios colores y diseños, es ideal para cualquier ocasión. ¡Hazte con uno para el pequeño aventurero de la casa!",
+  "price": 24.99,
+  "stock": 80,
+  "category": "children"
+  },
+  {
+  "id": "p07",
+  "img": "https://kedabe.net/wp-content/uploads/2019/10/sudadera-capucha-hombre-toronto-azu-frontal.png",
+  "title": "Sudadera con capucha para hombre",
+  "description": "Esta sudadera con capucha para hombre es una prenda cómoda y versátil para cualquier ocasión informal. Confeccionada en un suave tejido de algodón, cuenta con un diseño moderno y detalles de costuras que realzan el estilo. Disponible en varios colores y tallas, se adapta a cualquier figura y estilo. ¡Hazte con ella para sentirte cómodo y a la moda!",
+  "price": 59.99,
+  "stock": 40,
+  "category": "men"
+  },
+  {
+  "id": "p08",
+  "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/002/278/443/products/d_nq_np_2x_859313-mla52028968721_102022-f-removebg-preview1-77b736768cf09ed40a16662128248998-240-0.png",
+  "title": "Vestido estampado para mujer",
+  "description": "Este vestido estampado para mujer es una prenda fresca y cómoda para los días de verano. Confeccionado en un suave tejido de algodón, cuenta con un diseño moderno y alegre que realza el estilo. Disponible en varios colores y tallas, se adapta a cualquier figura y estilo. ¡Hazte con él para lucir radiante en tus días de vacaciones!",
+  "price": 34.99,
+  "stock": 60,
+  "category": "women"
+  },
+  {
+  "id": "p09",
+  "img": "https://www.waldhausen.com/media/catalog/product/cache/6/image/1400x1600/9df78eab33525d08d6e5fb8d27136e95/32375/Shop/Artikel/3237556-104_11.png",
+  "title": "Chaleco de invierno para niño",
+  "description": "Este chaleco de invierno para niño es una prenda abrigada y resistente para los días más fríos. Confeccionado en un tejido suave y resistente al agua, cuenta con un cierre de cremallera y varios bolsillos prácticos. Disponible en varios colores y tallas, se adapta a cualquier estilo y gusto. ¡Hazte con uno para mantener a tu pequeño abrigado en invierno!",
+  "price": 44.99,
+  "stock": 35,
+  "category": "children"
+  },
+  {
+  "id": "p10",
+  "img": "https://textilesjb.com/wp-content/uploads/2018/08/01lhl-Camisa-Lineta-Manga-Larga-1.png",
+  "title": "Camisa de vestir para hombre",
+  "description": "Esta camisa de vestir para hombre es una prenda elegante y sofisticada para ocasiones especiales. Confeccionada en un suave tejido de algodón, cuenta con un corte clásico y un cuello de solapa que realzan el estilo. Disponible en varios colores y tallas, se adapta a cualquier figura y estilo. ¡Hazte con ella para lucir impecable en tus eventos formales!",
+  "price": 79.99,
+  "stock": 25,
+  "category": "men"
+  },
+  {
+  "id": "p11",
+  "img": "https://sc04.alicdn.com/kf/H5c268fe84e0e4cc3b0913fdefe4764dfW.png",
+  "title": "Falda de cuero para mujer",
+  "description": "Esta falda de cuero para mujer es una prenda versátil y elegante para cualquier ocasión. Confeccionada en un suave cuero sintético, cuenta con un diseño moderno y detalles de costuras que realzan el estilo. Disponible en varios colores y tallas, se adapta a cualquier figura y estilo. ¡Hazte con ella para lucir espectacular en tus salidas nocturnas!",
+  "price": 69.99,
+  "stock": 20,
+  "category": "women"
+  },
+  {
+  "id": "p12",
+  "img": "https://elprincipitollanes.es/6884-home_default/plumas-de-nina-rosa-de-levis.jpg",
+  "title": "Abrigo acolchado para niña",
+  "description": "Este abrigo acolchado para niña es una prenda abrigada y resistente para los días más fríos. Confeccionado en un tejido suave y resistente al agua, cuenta con un cierre de cremallera y varios bolsillos prácticos. Disponible en varios colores y tallas, se adapta a cualquier estilo y gusto. ¡Hazte con uno para mantener a tu pequeña abrigada en invierno!",
+  "price": 54.99,
+  "stock": 30,
+  "category": "children"
+  }
+]
+}

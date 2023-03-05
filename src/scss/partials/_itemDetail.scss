@@ -1,0 +1,69 @@
+#itemDetail{
+    @include flex(column, wrap, space-between, start, $space-16);
+    background-color: white;
+    grid-column: 2/3;
+    padding: $space-32;
+    border-radius: 4px;
+    max-width: 38rem;
+    .itemDetail__figure{
+        display: grid;
+        place-items: center;
+        .figure__img{
+            width: 60%;
+        }
+    }
+    .itemDetail__article{
+        @include flex(column, wrap, space-between, start, $space-16);
+        .article__title{
+            color: $navyBlue;
+            font-size: $font-18;
+            font-weight: 600;
+        }
+        .article__category{
+            color: $navyBlue;
+            font-size: $font-14;
+            span{
+            font-weight: 600;
+            }
+        }
+        .article__stock{
+            color: $navyBlue;
+            font-size: $font-14;
+            span{
+            font-weight: 600;
+            }
+        }
+        .article__description{
+            color: $navyBlue;
+            font-size: $font-14;
+            span{
+            font-weight: 600;
+            }
+        }
+        .article__price{
+            color: $navyBlue;
+            font-size: $font-32;
+        }
+        .article__footer{
+            @include flex(row, wrap, space-between, center, 0);
+            width: 100%;
+            #buyBtn{
+                cursor: pointer;
+                background-color: rgba(23, 23, 23, 0);
+                color: $navyBlue;
+                font-size: $font-16;
+                padding: 6px;
+                font-weight: 400;
+                border: solid $navyBlue 2px;
+                border-radius: 4px;
+                transition: all .3s;
+            }
+            #buyBtn:hover{
+                background-color: $navyBlue;
+                border-color: $skyBlue;
+                color: $skyBlue;
+            }
+        }
+
+    }
+}

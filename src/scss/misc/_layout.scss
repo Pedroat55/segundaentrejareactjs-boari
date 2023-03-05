@@ -1,0 +1,18 @@
+.container-xl{
+    max-width: 138rem;
+    margin: 0 auto;
+}
+.container-l{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+.container-fluid{
+    margin: 0 auto;
+    width: 100%;
+}
+.display-none{
+    display: none!important;
+}
+body{
+    @include grid-container(1fr, auto);
+}

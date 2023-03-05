@@ -1,0 +1,13 @@
+#footer{
+    @include flex(column, nowrap, center, center, 0);
+    background-color: $blackBlue;
+    padding: $space-64 0;
+    img{
+        width: $space-32;
+    }
+    p{
+        color: $white;
+        font-weight: normal;
+
+    }
+}

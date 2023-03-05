@@ -1,0 +1,5 @@
+#itemDetailContainer{
+    @include grid-container(1fr auto 1fr, auto);
+    background-color: $navyBlue;
+    padding: $space-64;
+}

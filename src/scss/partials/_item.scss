@@ -1,0 +1,42 @@
+.productCard{
+    @include flex(column, nowrap, space-between, center, $space-16);
+    background-color: $blackBlue;
+    border: 1px solid black;
+    max-width: 32rem;
+    padding: $space-32;
+    .productCard__title{
+        color: $skyBlue;
+        font-weight: 500;
+        font-size: $font-16;
+    }
+    .productCard__category{
+        color: $white;
+        font-weight: 600;
+        font-size: $font-16;
+    }
+    .productCard__img{
+        width: 40%;
+    }
+    .productCard__descrip{
+        text-align: cente;
+        color: $white;
+        max-width: 20rem;
+        font-size: $font-14;
+    }
+    .productCard__btn{
+        background-color: rgba(23, 23, 23, 0);
+        border: none;
+        color: $white;
+        font-weight: 600;
+        font-size: $font-16;
+        font-family: 'Roboto', sans-serif;
+        font-style: italic;
+        background-color: $navyBlue;
+        padding: $space-8 $space-16;
+        border-radius: 4px;
+        transition: all .3s;
+    }
+    .productCard__btn:hover{
+        background-color: $deepSkyBlue;
+    }
+}

@@ -1,0 +1,38 @@
+#home{
+    @include grid-container(1fr auto 1fr, auto);
+    padding: $space-32;
+    background-color: $white;
+    .home__container{
+        background-color: $blackBlue;
+        grid-column: 2/3;
+        padding: $space-32 $space-64;
+        border-radius: 4px;
+        display: grid;
+        gap: $space-16;
+        .home__txt{
+            display: grid;
+            gap: $space-16;
+            .home__title{
+                text-align: center;
+                color: $skyBlue;
+                font-size: $font-28;
+                font-style: italic;
+            }
+            .home__descrip{
+                font-size: $font-14;
+                text-align: center;
+                color: $white;
+                font-weight: 500;
+                line-height: 2;
+                font-style: italic;
+            }
+        }
+        .home__figure{
+            display: grid;
+            place-items: center;
+            .figure__img{
+                width: 100%;
+            }
+        }
+    }
+}

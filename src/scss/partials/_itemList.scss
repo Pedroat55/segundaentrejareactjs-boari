@@ -1,0 +1,7 @@
+#itemList{
+    @include grid-container(auto, auto);
+    row-gap: $space-32;
+    column-gap: $space-16;
+    padding: $space-64 0;
+    grid-column: 2/3;
+}
